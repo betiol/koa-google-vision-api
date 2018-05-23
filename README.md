@@ -10,8 +10,20 @@ For more info check: [Google Vision Docs](https://cloud.google.com/vision/docs/l
 yarn || npm i
 yarn start
 ```
-Try:
-Send post to `/check` 
+Labels:
+Send post to `/labels` 
+Property: `image`: `upload image`
+
+Landmark:
+Send post to `/landmark` 
+Property: `image`: `upload image`
+
+Text:
+Send post to `/text` 
+Property: `image`: `upload image`
+
+Face Detection:
+Send post to `/face-detection` 
 Property: `image`: `upload image`
 
 ## Ideas:
