@@ -1,4 +1,4 @@
-# Simple KOA Google Vision API
+# Simple Google Vision API
 
 Credits [Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-vision)
 
