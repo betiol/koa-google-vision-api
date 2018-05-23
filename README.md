@@ -4,14 +4,14 @@ Credits [Google Cloud Vision](https://github.com/GoogleCloudPlatform/cloud-visio
 
 ### To run:
 - Duplicate and change name ```config.sample.js``` to `config.js`
-- Add your `config-filename.json` and `projectId`
+- Add your `vision-key.json` and `projectId`
 For more info check: [Google Vision Docs](https://cloud.google.com/vision/docs/libraries#using_the_client_library)
 ```
 yarn || npm i
 yarn start
 ```
 Try:
-Send post to `/uploads` 
+Send post to `/check` 
 Property: `image`: `upload image`
 
 ## Ideas:
