@@ -31,3 +31,4 @@ Property: `image`: `upload image`
 - [X] Landmark Detection
 - [X] Text Detection
 - [ ] Document Text Detection
+- [ ] Swagger Docs
