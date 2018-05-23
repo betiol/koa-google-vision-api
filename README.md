@@ -15,7 +15,7 @@ Send post to `/uploads`
 Property: `image`: `upload image`
 
 ## Ideas:
-- [ ] Face Detection
-- [ ] Landmark Detection
-- [ ] Text Detection
+- [X] Face Detection
+- [X] Landmark Detection
+- [X] Text Detection
 - [ ] Document Text Detection
