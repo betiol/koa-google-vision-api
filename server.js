@@ -23,13 +23,10 @@ const client = new vision.ImageAnnotatorClient(config);
 
 router.post('/check', upload.single('image'), async ctx => {
     const file = ctx.req.file.path;
-    await client
-        .labelDetection(file)
-        .then(results => {
-            const labels = results[0].labelAnnotations;
-            ctx.body = labels
-        })
-        .catch(err => {
-            ctx.throw(500, err)
-        });
+    try {
+        const request = await client.labelDetection(file)
+        ctx.body = request[0].labelAnnotations
+    } catch (error) {
+        ctx.throw(500, err)
+    }
 });
